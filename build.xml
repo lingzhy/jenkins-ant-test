@@ -3,11 +3,9 @@
    <target name="test">
        <exec executable="git"> 
                 <arg line=" tag -a v1.0" />
-                <args />
        </exec>
        <exec executable="git">
                 <arg line=" push origin --tags" />
-                <args />
        </exec>
   </target>
 </project>
