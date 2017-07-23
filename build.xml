@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GBK"?>
+<project name="firstant" default="test" basedir="." >
+   <target name="test">
+       <exec executable="git">
+                <arg line=" tag -a v1.0" />
+                <args />
+       </exec>
+       <exec executable="git">
+                <arg line=" push origin --tags" />
+                <args />
+       </exec>
+  </target>
+</project>
