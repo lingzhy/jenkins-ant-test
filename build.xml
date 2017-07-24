@@ -2,7 +2,7 @@
 <project name="firstant" default="test" basedir="." >
    <target name="test">
        <exec executable="git"> 
-                <arg line="tag v11" />
+                <arg line="tag v12" />
        </exec>
        <exec executable="git">
                 <arg line="push origin https://lingzhy:git22542580@github.com/lingzhy/jenkins-ant-test.git --tags" />
