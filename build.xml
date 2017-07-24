@@ -6,7 +6,7 @@
        </exec>
       
        <exec executable="git">
-                <arg line="push origin https://lingzhy:git22542580@github.com/lingzhy/jenkins-ant-test.git --tags" />
+                <arg line="push origin --tags" />
        </exec>
   </target>
 </project>
