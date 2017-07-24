@@ -2,7 +2,7 @@
 <project name="firstant" default="test" basedir="." >
    <target name="test">
        <exec executable="git"> 
-                <arg line="tag v12" />
+                <arg line="tag v13" />
        </exec>
       
        <exec executable="git">
