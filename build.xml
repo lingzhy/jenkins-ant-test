@@ -2,7 +2,7 @@
 <project name="firstant" default="test" basedir="." >
    <target name="test">
        <exec executable="git"> 
-                <arg line=" tag v3.0" />
+                <arg line=" tag v5.0" />
        </exec>
        <exec executable="git">
                 <arg line=" push origin --tags" />
