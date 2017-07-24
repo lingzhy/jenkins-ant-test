@@ -2,10 +2,10 @@
 <project name="firstant" default="test" basedir="." >
    <target name="test">
        <exec executable="git"> 
-                <arg line=" tag v7.0" />
+                <arg line="tag v7.0" />
        </exec>
        <exec executable="git">
-                <arg line=" push origin --tags" />
+                <arg line="push origin --tags" />
        </exec>
   </target>
 </project>
